@@ -3,6 +3,7 @@
 /**
  * main - prints the numbers since 0 to 9
  *
+ * Description:using the main function
  * Rerurn: Always (0)
  */
 int main(void)
