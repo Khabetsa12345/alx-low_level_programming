@@ -1,22 +1,22 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints the numbers since 0 to 9
- *
- * Description:using the main function
+ * main -Entry point
+ * Description: prints the numbers from 0 to 9
  * Rerurn: Always (0)
  */
 int main(void)
 {
 	char n;
 
-	for (n = '0'; n < '9'; n++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(n);
+		printf("%d", a);
 	}
+	putchar('\n');
 
-	putchar ('\n');
-
-	return(0);
+	return (0);
 }
+
 
