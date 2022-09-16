@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - input
- *
- * Description: define if a character is a number
- * @c: character
- * Return: 1yes 0 no
+ * _isdigit - checks if a character is a digit or not
+ * @c: character to be tested
+ * Return: 1 if yes, 0 if otherwise
  */
 
 int _isidigit(int c)
