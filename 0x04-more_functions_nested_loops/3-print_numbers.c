@@ -1,8 +1,8 @@
 #include "main.h"
-
 /**
-* prints_numbers - function that prints numbers from 0 to 9
+* print_numbers - entry point
 *
+* Description: Prints the numbers with _putchar
 * Return: void
 */
 
@@ -16,4 +16,3 @@ void print_numbers(void)
 	}
 	_putchar('\n');
 }
-
