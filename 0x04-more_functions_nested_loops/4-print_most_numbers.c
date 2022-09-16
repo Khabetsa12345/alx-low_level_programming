@@ -1,24 +1,21 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-* print_most_numbers - prints the numbers with _putchar
+* print_most_numbers - entry point
 *
+* Description: Prints the numbers with _putchar
 * Return: void
 */
 
 void print_most_numbers(void)
 {
-	int n;
+	int number;
 
-	for (n = 48; n < 58; n++)
+	for (number = '0'; number <= '9'; number++)
 	{
-		if ((n == 50 || n == 52))
-		{
-			continue;
-		}
-		_putchar(n);
-
-		_putchar(10);
+		if (number == '2' || number == '4')
+			;
+		else
+			_putchar(number);
 	}
+	_putchar('\n');
 }
