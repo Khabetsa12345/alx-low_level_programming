@@ -2,11 +2,11 @@
 
 /**
 * reset_to_98 - resets the value of the integer in question to 98
-* @n:parameter 
+* @n: parameter
 * Return: 0
 */
 
 void reset_to_98(int *n)
 {
-	n* = 98;
+	*n = 98;
 }
