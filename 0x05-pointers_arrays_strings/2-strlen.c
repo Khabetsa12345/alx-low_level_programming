@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* _strlen - counts string except \0
-* @s: returns length as integer;
-*Returns:  i
+* _strlen - Returns the length of a string
+* @s: character type pointer
+*
+* Return: The length of @s
 */
 
 int _strlen(char *s)
