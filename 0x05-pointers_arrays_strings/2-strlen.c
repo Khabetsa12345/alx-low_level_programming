@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strlen - returns the length of a string
+* _strlen - counts string except \0
 * @s: returns length as integer;
 *Returns:  i
 */
