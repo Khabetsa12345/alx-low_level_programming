@@ -5,15 +5,22 @@
 * @s: string to reverse
 * Return: nothing
 */
-
 void print_rev(char *s)
 {
-	if (*str)
+	int i, len;
+
+	i = 0;
+
+	len = 0;
+
+	while (s[len] != '\0')
 	{
-		while (*str)
-		{
-			putchar(*str++);
-		}
+		len++;
 	}
-	_putchar('\n);
+	for (i = len - 1; i >= 0; i--)
+	{
+		_putchar(*(s + i));
+	}
+	_putchar('\n');
 }
+
