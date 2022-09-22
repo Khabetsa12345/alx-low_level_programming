@@ -6,6 +6,7 @@
 * dest: second parameter
 * Return: dest
 */
+
 char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
