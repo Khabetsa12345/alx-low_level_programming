@@ -1,22 +1,27 @@
 #include "main.h"
 
 /**
-* print_chessboard - Prints chessboard
+* _strpbrk - Searches a string for any of a set of bytes.
+* @s: The string to be searched.
+* @accept: The set of bytes to be searched for.
 *
-* @a: Double pointer
-*
-* Return: 0
+* Return: If a set is matched - a pointer to the matched byte.
+* If no set is matched - NULL.
 */
 
-void print_chessboard(char (*a)[8])
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i, j;
+	int index;
 
-	for (i = 0; i < 8; i++)
+	while (*s)
 	{
-		for (j = 0; j < 8; j++)
+		for (index = 0; accept[index]; index++)
+		{
+			if (*s == accept[index])
+			return (s);
+		}
 
-		_putchar(a[i][j]);
-		_putchar('\n');
+		s++;
 	}
+	return ('\0');
 }
