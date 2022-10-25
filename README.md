@@ -1,1 +1,2 @@
-pointers arrays strings
+Singly linked lists
+
